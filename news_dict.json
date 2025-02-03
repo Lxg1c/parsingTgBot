@@ -187,5 +187,40 @@
         "img": "https://www.securitylab.ru/upload/resize_cache/iblock/2eb/241_151_2/almvhmm2siexcutzhj44v40ecmvc3wpn.jpeg",
         "title": "Из одной банды ‒ сотня новых: как полицейские облавы укрепили армию шантажистов",
         "link": "https://www.securitylab.ru/news/556044.php"
+    },
+    "556075": {
+        "id": "556075",
+        "time": 1738603260.0,
+        "img": "https://www.securitylab.ru/upload/resize_cache/iblock/311/241_151_2/zg3v2so2jnjxr10hooh2mr35k6j7f7kd.jpeg",
+        "title": "Двигатель с рекордным КПД: как биохимики решили главную проблему термодинамики",
+        "link": "https://www.securitylab.ru/news/556075.php"
+    },
+    "556096": {
+        "id": "556096",
+        "time": 1738601700.0,
+        "img": "https://www.securitylab.ru/upload/resize_cache/iblock/8b9/241_151_2/3ycs9qqt5bdbz370bl5x1cj81k32wuyx.jpg",
+        "title": "Европа запретила ИИ манипулировать людьми",
+        "link": "https://www.securitylab.ru/news/556096.php"
+    },
+    "556069": {
+        "id": "556069",
+        "time": 1738601040.0,
+        "img": "https://www.securitylab.ru/upload/resize_cache/iblock/599/241_151_2/q8osa6rjp66wwne9z7jhutqjwrec8qlp.jpeg",
+        "title": "SUPER: дрон научился летать как птица на бешеной скорости",
+        "link": "https://www.securitylab.ru/news/556069.php"
+    },
+    "556094": {
+        "id": "556094",
+        "time": 1738607168.0,
+        "img": "https://www.securitylab.ru/upload/resize_cache/iblock/1be/241_151_2/sadqradobub456yhxdixrycp7n5333y0.jpg",
+        "title": "Наномолекулярный патч впервые заменил анализы крови",
+        "link": "https://www.securitylab.ru/news/556094.php"
+    },
+    "556093": {
+        "id": "556093",
+        "time": 1738605530.0,
+        "img": "https://www.securitylab.ru/upload/resize_cache/iblock/0e0/241_151_2/li49ce89qbo3rlzd0qhuwea3faj65hcz.jpg",
+        "title": "Инновационная биоручка печатает живые ткани чернилами из комбучи",
+        "link": "https://www.securitylab.ru/news/556093.php"
     }
 }
