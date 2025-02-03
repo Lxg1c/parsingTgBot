@@ -6,9 +6,10 @@ from aiogram.client.default import DefaultBotProperties
 from aiogram.enums import ParseMode
 from config import settings
 from routers import router as main_router
-from routers.commands.base_commands import on_startup
+from utils import send_news_to_users
 
 
+# main.py
 async def main():
     logging.basicConfig(level=logging.INFO, stream=sys.stdout)
     bot = Bot(
@@ -18,9 +19,8 @@ async def main():
     dp.include_router(main_router)
 
     # Запускаем фоновую задачу
-    await on_startup(bot)
+    asyncio.create_task(send_news_to_users(bot))
 
-    # And run events dispatching
     await dp.start_polling(bot)
 
 

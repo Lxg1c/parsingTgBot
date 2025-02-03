@@ -144,10 +144,4 @@ def check_updated_news():
     with open("news_dict.json", "w", encoding="utf-8") as file:
         json.dump(news_dict, file, indent=4, ensure_ascii=False)
 
-    return fresh_news
-
-
-def main():
-    """Основная функция для управления скриптом."""
-    # get_first_news()
-    check_updated_news()
+    return list(fresh_news.values())
