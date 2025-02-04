@@ -222,5 +222,61 @@
         "img": "https://www.securitylab.ru/upload/resize_cache/iblock/0e0/241_151_2/li49ce89qbo3rlzd0qhuwea3faj65hcz.jpg",
         "title": "Инновационная биоручка печатает живые ткани чернилами из комбучи",
         "link": "https://www.securitylab.ru/news/556093.php"
+    },
+    "556106": {
+        "id": "556106",
+        "time": 1738659448.0,
+        "img": "https://www.securitylab.ru/upload/resize_cache/iblock/f0f/241_151_2/3t0ffz704lr16rxtdc0lzlw0kzsgdwu3.jpg",
+        "title": "Мошенники крадут деньги родителей через аккаунты детей Roblox",
+        "link": "https://www.securitylab.ru/news/556106.php"
+    },
+    "556104": {
+        "id": "556104",
+        "time": 1738656048.0,
+        "img": "https://www.securitylab.ru/upload/resize_cache/iblock/ed2/241_151_2/3ce3rolizc9llaoyhin12bdvx023yz88.jpg",
+        "title": "США объявляет охоту на пользователей китайского DeepSeek",
+        "link": "https://www.securitylab.ru/news/556104.php"
+    },
+    "556102": {
+        "id": "556102",
+        "time": 1738654888.0,
+        "img": "https://www.securitylab.ru/upload/resize_cache/iblock/302/241_151_2/nlyykhiw3i5k13p7s1yasuip0nezic1l.jpeg",
+        "title": "Градусник из атомов: физики научились измерять температуру без калибровки",
+        "link": "https://www.securitylab.ru/news/556102.php"
+    },
+    "556100": {
+        "id": "556100",
+        "time": 1738653600.0,
+        "img": "https://www.securitylab.ru/upload/resize_cache/iblock/627/241_151_2/yyoeivxfpsf7xu2sw7qxhui61ibyu7v3.jpg",
+        "title": "Многоступенчатая угроза: Coyote обходит защиту Windows через обычные ярлыки",
+        "link": "https://www.securitylab.ru/news/556100.php"
+    },
+    "556099": {
+        "id": "556099",
+        "time": 1738652400.0,
+        "img": "https://www.securitylab.ru/upload/resize_cache/iblock/077/241_151_2/9wuppm9tfp37ohqgth94w54kedmgkez7.jpg",
+        "title": "RCE в Marvel Rivals: как игра превратилась в троян с правами администратора",
+        "link": "https://www.securitylab.ru/news/556099.php"
+    },
+    "556098": {
+        "id": "556098",
+        "time": 1738648800.0,
+        "img": "https://www.securitylab.ru/upload/resize_cache/iblock/0a1/241_151_2/etqu1pglvcdu5jdevebf0waosehur0i4.jpg",
+        "title": "Тревожный аккорд: Apple экстренно обновляет GarageBand для Mac",
+        "link": "https://www.securitylab.ru/news/556098.php"
+    },
+    "556097": {
+        "id": "556097",
+        "time": 1738647000.0,
+        "img": "https://www.securitylab.ru/upload/resize_cache/iblock/c16/241_151_2/16tmcnpj5tug3r22kwdczkvee2szwpxs.jpg",
+        "title": "CVE-2024-53104: Google закрывает критическую 0day-брешь в Android",
+        "link": "https://www.securitylab.ru/news/556097.php"
+    },
+    "556092": {
+        "id": "556092",
+        "time": 1738644660.0,
+        "img": "https://www.securitylab.ru/upload/resize_cache/iblock/c1c/241_151_2/a77gwopirbiwway7cu9mievht3tj4mry.jpeg",
+        "title": "Юбилей проекта Phoenix: охота на «зеленых человечков» затянулась на 30 лет",
+        "link": "https://www.securitylab.ru/news/556092.php"
     }
 }

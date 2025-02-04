@@ -4,11 +4,11 @@ from aiogram.enums import ParseMode
 from aiogram.filters import Command, CommandStart
 from aiogram.types import Message
 from aiogram.utils import markdown
-from Keyboards.replyKeyboard import get_on_start_kb, ButtonText
+from bot.Keyboards.replyKeyboard import get_on_start_kb, ButtonText
 from aiogram import F
 from parser import check_updated_news
-from utils import send_news
-from database import subscribe_user, unsubscribe_user
+from bot.utils import send_news
+from bot.database import subscribe_user, unsubscribe_user
 
 router = Router(name=__name__)
 
@@ -31,7 +31,7 @@ async def handle_start(message: Message):
 @router.message(Command(ButtonText.SUBSCRIBE))
 async def toggle_subscribe(message: Message):
     try:
-        with open("subscribed_users.json", "r", encoding="utf-8") as file:
+        with open("../../subscribed_users.json", "r", encoding="utf-8") as file:
             subscribed_users = json.load(file)
     except FileNotFoundError:
         subscribed_users = []

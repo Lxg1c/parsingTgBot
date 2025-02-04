@@ -1,0 +1,8 @@
+
+services:
+  bot:
+    build: .
+    container_name: tg_bot
+    restart: unless-stopped
+    environment:
+      - YOUR_TELEGRAM_BOT_TOKEN=7814719266:AAGQl2fgEm7nSHDv0eqArtiiJGz7g1bNurk
