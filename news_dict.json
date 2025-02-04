@@ -278,5 +278,40 @@
         "img": "https://www.securitylab.ru/upload/resize_cache/iblock/c1c/241_151_2/a77gwopirbiwway7cu9mievht3tj4mry.jpeg",
         "title": "Юбилей проекта Phoenix: охота на «зеленых человечков» затянулась на 30 лет",
         "link": "https://www.securitylab.ru/news/556092.php"
+    },
+    "556109": {
+        "id": "556109",
+        "time": 1738662600.0,
+        "img": "https://www.securitylab.ru/upload/resize_cache/iblock/f01/241_151_2/mptpbcrjmnn2bidn57t11b7ff3hpbfuf.jpg",
+        "title": "Три страны, один враг: география DDoS-атак на DeepSeek",
+        "link": "https://www.securitylab.ru/news/556109.php"
+    },
+    "556110": {
+        "id": "556110",
+        "time": 1738662000.0,
+        "img": "https://www.securitylab.ru/upload/resize_cache/iblock/d14/241_151_2/n3pj0azj52ip0zunykiohgt8el46mj06.jpg",
+        "title": "Цифровое досье туриста: сенаторы объявили войну тотальной слежке",
+        "link": "https://www.securitylab.ru/news/556110.php"
+    },
+    "556108": {
+        "id": "556108",
+        "time": 1738661520.0,
+        "img": "https://www.securitylab.ru/upload/resize_cache/iblock/4f0/241_151_2/e31ob42fm7i4o2jvxqeps1rexip73z8s.jpg",
+        "title": "Голос в базу без спроса: Минцифры предложило новые правила борьбы с аферистами",
+        "link": "https://www.securitylab.ru/news/556108.php"
+    },
+    "556107": {
+        "id": "556107",
+        "time": 1738660299.0,
+        "img": "https://www.securitylab.ru/upload/resize_cache/iblock/22b/241_151_2/90vmh9bo2j42igjz54c2av25829i2qr6.jpg",
+        "title": "Remove-DEI: тысячи материалов о равноправии исчезают из госархивов США",
+        "link": "https://www.securitylab.ru/news/556107.php"
+    },
+    "556105": {
+        "id": "556105",
+        "time": 1738657794.0,
+        "img": "https://www.securitylab.ru/upload/resize_cache/iblock/e0c/241_151_2/qgek5faymwdnfy2g9jrzvm4bdwr0cwql.jpeg",
+        "title": "За вами следят 200 раз в секунду: вся правда о приватности в iPhone",
+        "link": "https://www.securitylab.ru/news/556105.php"
     }
 }
