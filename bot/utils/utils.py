@@ -6,7 +6,7 @@ from aiogram.utils import markdown
 from aiogram.utils.markdown import hbold, hide_link
 from bot.Keyboards.inlineKeyboard import get_link_to_new
 from parser import check_updated_news
-from bot.database import get_subscribed_users
+from bot.db.database import get_subscribed_users
 import logging
 
 

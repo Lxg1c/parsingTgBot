@@ -8,8 +8,6 @@ from config import settings
 from routers import router as main_router
 from utils import send_news_to_users
 
-
-# main.py
 async def main():
     logging.basicConfig(level=logging.INFO, stream=sys.stdout)
     bot = Bot(
@@ -23,6 +21,6 @@ async def main():
 
     await dp.start_polling(bot)
 
-
 if __name__ == "__main__":
-    asyncio.run(main())  # Используем asyncio.run для запуска асинхронной функции
+    print(f"Bot token: {settings.bot_token}")  # Отладочный вывод
+    asyncio.run(main())

@@ -313,5 +313,103 @@
         "img": "https://www.securitylab.ru/upload/resize_cache/iblock/e0c/241_151_2/qgek5faymwdnfy2g9jrzvm4bdwr0cwql.jpeg",
         "title": "За вами следят 200 раз в секунду: вся правда о приватности в iPhone",
         "link": "https://www.securitylab.ru/news/556105.php"
+    },
+    "556114": {
+        "id": "556114",
+        "time": 1738686840.0,
+        "img": "https://www.securitylab.ru/upload/resize_cache/iblock/1b3/241_151_2/8wjepba3cuyjjp27oj8rh0h8cllq1j09.jpeg",
+        "title": "По стопам младенца: ИИ наконец-то научится говорить по-человечески",
+        "link": "https://www.securitylab.ru/news/556114.php"
+    },
+    "556135": {
+        "id": "556135",
+        "time": 1738683009.0,
+        "img": "https://www.securitylab.ru/upload/resize_cache/iblock/cf0/241_151_2/s3a93z7kx88sgstbcuxs6jjj2ssvtjia.jpg",
+        "title": "Фото голого Трампа появилось в его аккаунте",
+        "link": "https://www.securitylab.ru/news/556135.php"
+    },
+    "556134": {
+        "id": "556134",
+        "time": 1738680720.0,
+        "img": "https://www.securitylab.ru/upload/resize_cache/iblock/273/241_151_2/z2q5iabdst2xzao8jhjvoitn0im1aeh7.jpg",
+        "title": "Фото, крипта, пароли: троян SparkCat крадёт личные данные с Android и iOS",
+        "link": "https://www.securitylab.ru/news/556134.php"
+    },
+    "556125": {
+        "id": "556125",
+        "time": 1738676419.0,
+        "img": "https://www.securitylab.ru/upload/resize_cache/iblock/066/241_151_2/02a382jvkqpyndr111fp1h5hckvb4kxb.jpg",
+        "title": "В России хотят пересчитать всех «белых» хакеров",
+        "link": "https://www.securitylab.ru/news/556125.php"
+    },
+    "556120": {
+        "id": "556120",
+        "time": 1738671000.0,
+        "img": "https://www.securitylab.ru/upload/resize_cache/iblock/fc8/241_151_2/2cfyy3r5je6dhegfljnl4dfdr0mbyltb.jpg",
+        "title": "Майнеры в облаке: как хакеры годами добывают криптовалюту за чужой счёт",
+        "link": "https://www.securitylab.ru/news/556120.php"
+    },
+    "556118": {
+        "id": "556118",
+        "time": 1738669645.0,
+        "img": "https://www.securitylab.ru/upload/resize_cache/iblock/069/241_151_2/e460qufysft5ild7s124vl4gimyp8eme.jpg",
+        "title": "Молчание – золото: школы США превратились в идеальную цель для вымогателей",
+        "link": "https://www.securitylab.ru/news/556118.php"
+    },
+    "556119": {
+        "id": "556119",
+        "time": 1738668871.0,
+        "img": "https://www.securitylab.ru/upload/resize_cache/iblock/f39/241_151_2/0yfg8fx9n24atwhcy0o6b6n7uvpsfqxd.jpg",
+        "title": "Интеграция IDE-плагинов и PT Application Inspector: новый уровень командной работы при поиске уязвимостей",
+        "link": "https://www.securitylab.ru/news/556119.php"
+    },
+    "556117": {
+        "id": "556117",
+        "time": 1738668000.0,
+        "img": "https://www.securitylab.ru/upload/resize_cache/iblock/fde/241_151_2/amlpshxhtx3yutpme0bqf1oomgf2j72d.jpg",
+        "title": "Громкий арест в Польше: экс-министр юстиции ответит за слежку с использованием Pegasus",
+        "link": "https://www.securitylab.ru/news/556117.php"
+    },
+    "556115": {
+        "id": "556115",
+        "time": 1738666652.0,
+        "img": "https://www.securitylab.ru/upload/resize_cache/iblock/ece/241_151_2/xcn3yyrh1s1r7z4x9ct1r63t2m1ng4mg.jpg",
+        "title": "Любовная переписка в WhatsApp обернулась аферой на $182 миллиона",
+        "link": "https://www.securitylab.ru/news/556115.php"
+    },
+    "556111": {
+        "id": "556111",
+        "time": 1738666380.0,
+        "img": "https://www.securitylab.ru/upload/resize_cache/iblock/c89/241_151_2/a5y67jll9l73cb08r1xokki0yrbsydz7.jpg",
+        "title": "Торговая дуэль: Китай запускает масштабное расследование против Google",
+        "link": "https://www.securitylab.ru/news/556111.php"
+    },
+    "556113": {
+        "id": "556113",
+        "time": 1738665220.0,
+        "img": "https://www.securitylab.ru/upload/resize_cache/iblock/7a8/241_151_2/5qijrg6w69hspwxlmia9pdh5sxcz29sl.jpg",
+        "title": "Неудавшийся пират: 22-летний хакер превратил криптобиржи в личный банк",
+        "link": "https://www.securitylab.ru/news/556113.php"
+    },
+    "556112": {
+        "id": "556112",
+        "time": 1738663795.0,
+        "img": "https://www.securitylab.ru/upload/resize_cache/iblock/25a/241_151_2/vsfj2lujpe3cvc2g8mbv2ghfggpvr2ja.jpg",
+        "title": "Команда Илона Маска получила полный доступ к федеральным системам США",
+        "link": "https://www.securitylab.ru/news/556112.php"
+    },
+    "556138": {
+        "id": "556138",
+        "time": 1738691267.0,
+        "img": "https://www.securitylab.ru/upload/resize_cache/iblock/704/241_151_2/bc762lay2rlrz0mbx35dhp29jyzsq84a.jpg",
+        "title": "ReDeconv: новый алгоритм раскрыл критические ошибки в тысячах исследований РНК",
+        "link": "https://www.securitylab.ru/news/556138.php"
+    },
+    "556116": {
+        "id": "556116",
+        "time": 1738691220.0,
+        "img": "https://www.securitylab.ru/upload/resize_cache/iblock/ac4/241_151_2/n5k04i5cag9vdldc5dfxo02sjbz9k4tz.jpeg",
+        "title": "Мир огня и льда: открыта планета, меняющая климат как перчатки",
+        "link": "https://www.securitylab.ru/news/556116.php"
     }
 }

@@ -8,7 +8,7 @@ from bot.Keyboards.replyKeyboard import get_on_start_kb, ButtonText
 from aiogram import F
 from parser import check_updated_news
 from bot.utils import send_news
-from bot.database import subscribe_user, unsubscribe_user
+from bot.db.database import subscribe_user, unsubscribe_user
 
 router = Router(name=__name__)
 

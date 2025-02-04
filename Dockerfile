@@ -1,20 +1,22 @@
 # Используем официальный образ Python
-FROM python:3.13-slim
+FROM python:3.13
 
 # Устанавливаем рабочую директорию
 WORKDIR /app
 
 # Копируем зависимости
-COPY pyproject.toml poetry.lock ./
+COPY requirements.txt requirements.txt
+# Устанавлием инструмент для компилирования зависимсотей
+RUN pip install --upgrade setuptools
 
-# Устанавливаем Poetry
-RUN pip install poetry
+# Устанавливаем зависомости
+RUN pip install -r requirements.txt
 
-# Устанавливаем зависимости проекта
-RUN poetry install --no-root
+# Устанавилем уровень доступа
+RUN chmod 755 .
 
 # Копируем исходный код
 COPY . .
 
-# Запускаем бота
-CMD ["poetry", "run", "python", "bot/main.py"]
+# Команда для запуска бота
+CMD ["python", "-m", "bot.main"]
