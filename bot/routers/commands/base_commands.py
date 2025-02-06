@@ -7,14 +7,10 @@ from aiogram.utils import markdown
 from bot.Keyboards.replyKeyboard import get_on_start_kb, ButtonText
 from aiogram import F
 from parser import check_updated_news
-from bot.utils import send_news
+from bot.utils.utils import send_news
 from bot.db.database import subscribe_user, unsubscribe_user
 
 router = Router(name=__name__)
-
-
-# Удаляем глобальную переменную subscribers и добавляем команды подписки
-
 
 @router.message(CommandStart())
 async def handle_start(message: Message):
