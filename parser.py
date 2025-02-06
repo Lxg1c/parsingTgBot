@@ -66,7 +66,7 @@ def extract_article_data(article, base_url):
     }
 
 
-def remove_old_news(news_dict, days=5):
+def remove_old_news(news_dict, days=3):
     """Удаляет новости старше указанного количества дней."""
     current_time = time.time()
     threshold = current_time - (days * 24 * 60 * 60)  # Время в секундах

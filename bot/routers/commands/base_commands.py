@@ -8,7 +8,7 @@ from bot.Keyboards.replyKeyboard import get_on_start_kb, ButtonText
 from aiogram import F
 from parser import check_updated_news
 from bot.utils.utils import send_news
-from bot.db.database import subscribe_user, unsubscribe_user
+from bot.db.database import subscribe_user, unsubscribe_user, get_subscribed_users
 
 router = Router(name=__name__)
 
@@ -26,13 +26,8 @@ async def handle_start(message: Message):
 @router.message(F.text == ButtonText.SUBSCRIBE)
 @router.message(Command(ButtonText.SUBSCRIBE))
 async def toggle_subscribe(message: Message):
-    try:
-        with open("../../subscribed_users.json", "r", encoding="utf-8") as file:
-            subscribed_users = json.load(file)
-    except FileNotFoundError:
-        subscribed_users = []
-
     user_id = message.from_user.id
+    subscribed_users = get_subscribed_users()
 
     if user_id in subscribed_users:
         await message.answer(
@@ -46,14 +41,20 @@ async def toggle_subscribe(message: Message):
 
 @router.message(Command("subscribe"))
 async def handle_subscribe(message: Message):
-    subscribe_user(message.from_user.id)
-    await message.answer("✅ Вы успешно подписались на рассылку!")
+    try:
+        subscribe_user(message.from_user.id)
+        await message.answer("✅ Вы успешно подписались на рассылку!")
+    except Exception as e:
+        await message.answer(f"Произошла ошибка при подписке: {e}")
 
 
 @router.message(Command("unsubscribe"))
 async def handle_unsubscribe(message: Message):
-    unsubscribe_user(message.from_user.id)
-    await message.answer("❌ Вы отписались от рассылки.")
+    try:
+        unsubscribe_user(message.from_user.id)
+        await message.answer("❌ Вы отписались от рассылки.")
+    except Exception as e:
+        await message.answer(f"Произошла ошибка при отписке: {e}")
 
 
 @router.message(F.text == ButtonText.HELP)

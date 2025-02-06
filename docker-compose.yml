@@ -1,3 +1,4 @@
+version: '3'
 services:
   bot:
     build: .
@@ -5,3 +6,7 @@ services:
     restart: always
     env_file:
       - .env
+    volumes:
+      - ./data:/app/data  # Монтируем локальную папку 'data' в контейнер на путь /app/data
+    environment:
+      - DATABASE_PATH=/app/subscribed_users.db  # Указываем путь к базе данных в контейнере
