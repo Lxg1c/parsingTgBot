@@ -8,7 +8,7 @@ class Settings(BaseSettings):
         case_sensitive=False,  # Не учитывать регистр
     )
 
-    bot_token: str = '7814719266:AAGQl2fgEm7nSHDv0eqArtiiJGz7g1bNurk'
+    bot_token: str
 
 
 # Создаем объект настроек
