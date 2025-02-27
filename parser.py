@@ -107,10 +107,11 @@ def get_first_news():
 def check_updated_news():
     """Проверяет обновления новостей и добавляет новые."""
     try:
-        with open("news_dict.json", "r", encoding="utf-8") as file:
+        with open("./news_dict.json", "r", encoding="utf-8") as file:
             news_dict = json.load(file)
     except FileNotFoundError:
-        print("Файл news_dict.json не найден. Сначала выполните get_first_news().")
+        print("Файл news_dict.json не найден. Выполняю get_first_news().")
+        get_first_news()
         return {}
 
     headers = {
